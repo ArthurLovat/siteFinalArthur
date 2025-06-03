@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artch Linux - Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://img.icons8.com/ios-filled/50/linux.png" type="image/png">
+</head>
+<body>
+
+    <div id="header-placeholder"></div>
+
+    <main class="contact-page-content">
+        <section class="contact-form" id="contact-page-form">
+            <h2>Entre em Contato com a Artch Linux</h2>
+            <p class="contact-intro-text">Tem alguma dúvida, sugestão ou gostaria de colaborar? Preencha o formulário abaixo e entraremos em contato o mais breve possível.</p>
+            <form id="contactFormDedicated"> 
+                <div class="form-group">
+                    <label for="nameDedicated">Nome:</label>
+                    <input type="text" id="nameDedicated" name="nameDedicated" required>
+                </div>
+                <div class="form-group">
+                    <label for="emailDedicated">Email:</label>
+                    <input type="email" id="emailDedicated" name="emailDedicated" required>
+                </div>
+                <div class="form-group">
+                    <label for="subjectDedicated">Assunto:</label> <input type="text" id="subjectDedicated" name="subjectDedicated">
+                </div>
+                <div class="form-group">
+                    <label for="messageDedicated">Mensagem:</label>
+                    <textarea id="messageDedicated" name="messageDedicated" rows="8" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
+            <div id="form-message-dedicated" class="form-message"></div>
+            <p class="alternative-contact-text">Você também pode nos encontrar nas redes sociais ou enviar um email diretamente para <a href="mailto:contato@Artch Linux.com">contato@Artch Linux.com</a>.</p>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+    <button id="scroll-to-top" class="scroll-to-top">⬆️</button>
+    <script src="script.js"></script>
+</body>
+</html>
